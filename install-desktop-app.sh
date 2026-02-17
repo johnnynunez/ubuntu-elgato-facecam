@@ -21,7 +21,8 @@ fi
 # Install system dependencies
 echo "📦 Installing system dependencies..."
 sudo apt update
-sudo apt install -y v4l2loopback-dkms ffmpeg python3 python3-pyqt5
+sudo apt install -y v4l2loopback-dkms ffmpeg python3 python3-pyqt5 v4l-utils
+
 
 # Install command-line entry point
 # Note: We skip pip install since PyQt5 is installed via apt (python3-pyqt5).
